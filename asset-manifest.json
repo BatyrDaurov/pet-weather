@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/static/css/main.454dddd1.css",
+    "main.js": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/static/js/main.5670f3f9.js",
+    "static/media/cloud.png": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/static/media/cloud.93ea380a4d88cb8d7cf1.png",
+    "index.html": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/index.html",
+    "main.454dddd1.css.map": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/static/css/main.454dddd1.css.map",
+    "main.5670f3f9.js.map": "/BatyrDaurov/BatyrDaurov.github.io/pet-weather/static/js/main.5670f3f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.454dddd1.css",
+    "static/js/main.5670f3f9.js"
+  ]
+}
