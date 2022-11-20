@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pet-weather/static/css/main.454dddd1.css",
-    "main.js": "/pet-weather/static/js/main.8128eee4.js",
+    "main.css": "/pet-weather/static/css/main.9fb01180.css",
+    "main.js": "/pet-weather/static/js/main.4567b061.js",
     "static/media/cloud.png": "/pet-weather/static/media/cloud.93ea380a4d88cb8d7cf1.png",
     "index.html": "/pet-weather/index.html",
-    "main.454dddd1.css.map": "/pet-weather/static/css/main.454dddd1.css.map",
-    "main.8128eee4.js.map": "/pet-weather/static/js/main.8128eee4.js.map"
+    "main.9fb01180.css.map": "/pet-weather/static/css/main.9fb01180.css.map",
+    "main.4567b061.js.map": "/pet-weather/static/js/main.4567b061.js.map"
   },
   "entrypoints": [
-    "static/css/main.454dddd1.css",
-    "static/js/main.8128eee4.js"
+    "static/css/main.9fb01180.css",
+    "static/js/main.4567b061.js"
   ]
 }
