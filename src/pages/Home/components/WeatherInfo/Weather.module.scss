@@ -1,0 +1,104 @@
+@import './../../../../styles/variables.scss';
+@import './../../../../styles/breakpoints.scss';
+
+.days {
+    padding: 1.25rem;
+    background-color: var(#{--components-background-default});
+    box-shadow: $box-shadow;
+    border-radius: 0 0 $border-radius $border-radius;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: var(#{--card-background-default});
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 150px;
+    transition: 0.15s linear;
+    cursor: pointer;
+
+    .day {
+        margin-bottom: 7px;
+        font-size: 17px;
+        color: var(#{--text-color-default});
+    }
+    .day__info {
+        font-size: 14px;
+        margin-bottom: 12px;
+        color: $base-color;
+    }
+    .img {
+        margin-bottom: 12px;
+    }
+    .temp__day {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(#{--text-color-default});
+    }
+    .temp__night {
+        font-size: 13px;
+        color: $base-color;
+        margin-bottom: 6px;
+    }
+    .info {
+        font-size: 13px;
+        color: $base-color;
+    }
+    &:hover {
+        box-shadow: 0px 3px 15px var(#{--card-shadow-default});
+    }
+}
+
+.swiper {
+    height: 220px;
+    &Item {
+        width: 150px!important;
+    }
+}
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 7px;
+    gap: 10px;
+    &__wrapper {
+        display: flex;
+    }
+}
+.swiperItem {
+    width: 145px;
+}
+.cancel,
+.tab {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 9px 17px;
+    font-size: 18px;
+    color: var(#{--text-color-default});
+    background-color: var(#{--components-background-default});
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    border-radius: 5px;
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+    @include mobile {
+        padding: 9px 1px;
+        width: 40%;
+    }
+}
+.tab {
+    &.active {
+        background-color: $primary-color;
+        color: #fff;
+    }
+    @include mobile {
+        padding: 9px 5px;
+        width: 60%;
+    }
+}

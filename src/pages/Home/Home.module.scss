@@ -1,0 +1,21 @@
+@import './../../styles/breakpoints.scss';
+.home {
+    margin-bottom: 1rem;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    @include medium {
+        gap: 20px;
+    }
+    @include small-tablet {
+        flex-direction: column;
+    }
+}
+.loader {
+    height: calc(100vh - 116px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

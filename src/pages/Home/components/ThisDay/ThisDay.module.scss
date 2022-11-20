@@ -1,0 +1,55 @@
+@import './../../../../styles/variables.scss';
+@import './../../../../styles/breakpoints.scss';
+
+.this_day {
+    max-width: 400px;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(#{--components-background-default});
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    @include small-tablet {
+        max-width: none;
+        width: 100%;
+    }
+}
+
+.top_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    svg {
+        width: 119px;
+        height: 119px;
+    }
+    .this_temp {
+        font-size: 96px;
+        font-weight: 500;
+        color: $primary-color;
+        @include mobile {
+            font-size: 82px;
+        }
+    }
+    .this_day_name {
+        font-size: 40px;
+        color: var(#{--text-color-default});
+        @include tablet {
+            font-size: 33px;
+        }
+        @include mobile {
+            font-size: 26px;
+        }
+    }
+}
+.bottom_block {
+    .time_now,
+    .this_city {
+        color: $base-color;
+        font-size: 25px;
+        @include tablet {
+            font-size: 20px;
+        }
+    }
+}

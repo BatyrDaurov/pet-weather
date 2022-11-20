@@ -1,0 +1,33 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: var(#{--body-background-default});
+}
+
+button {
+    border: none;
+    
+}
+
+.container {
+    position: relative;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.selector {
+    &__menu-list {
+        background-color: var(--components-background-default);
+        border: 1px solid --card-background-default;
+    }
+}
