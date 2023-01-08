@@ -1,6 +1,15 @@
-# Project-portfolio of Batyr Daurov
-This one-page site will help you find out the weather in various cities of **Russia** (for now).
+# Weather forecast | Website
+This is web application, the pet-project of **Batyr Daurov.**
 
-Check demo - **https://batyrdaurov.github.io/pet-weather/**
+Hello, I'm a beginner **front-end developer**, I'm 16 and I'm a student studying web development for about 2 years.
 
-A strict minimalistic design was taken and the layout was taken from the video **https://www.youtube.com/watch?v=wjx--n5X-QI**
+Demo: **https://batyrdaurov.github.io/pet-weather/**
+
+### Stack technologies:
+* React;
+* TypeScript;
+* Redux-Toolkit;
+* Axios;
+
+
+Thank you for your attention.
